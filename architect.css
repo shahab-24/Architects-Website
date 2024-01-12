@@ -1,8 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Merriweather:ital,wght@0,400;0,700;0,900;1,900&family=Work+Sans:wght@400;500;600;700&display=swap");
 
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Merriweather:ital,wght@0,400;0,700;0,900;1,900&family=Work+Sans:wght@400;500;600;700&display=swap');
+* {
+  font-family: "Inter", sans-serif;
+  font-family: "Merriweather", serif;
+  font-family: "Work Sans", sans-serif;
+}
 
-  * {
-    font-family: 'Inter', sans-serif;
-font-family: 'Merriweather', serif;
-font-family: 'Work Sans', sans-serif;
-  }
+/* shared styles */
+.btn-primary {
+  text-align: center;
+  font-size: 20px;
+  border-radius: 8px;
+  background: #ff900e;
+  font-weight: 600px;
+
+}
+
+header {
+  background-color: rgba(255, 144, 14, 0.1);
+  padding: 50px 240px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #424242;
+  font-size: 18px;
+  margin-right: 30px;
+  font-weight: 500px;
+}
+
+.nav-title {
+  color: #131313;
+  font-size: 2rem;
+  font-weight: 700px;
+}
+
+/* banner section */
+.banner-content {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  
+}
+
+.banner-title{
+  color: #131313;
+  font-size: 4rem;
+  font-weight: 700px; 
+
+}
+
+.banner-description{
+  color: #727272;
+  font-size: 1rem;
+}
